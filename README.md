@@ -8,7 +8,7 @@ The scraper runs on the following url: https://www.etsy.com/de/search?q=bookmark
 a item creates a dictionary and stores the value under a key. Example below.
 Values in dictionary:
 
-First Header  | 
+valued scraped| 
 ------------- |
 date          |
 order         |
