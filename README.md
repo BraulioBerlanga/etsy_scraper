@@ -7,39 +7,46 @@ Scraper based on a search url. The scraper takes listing page values information
 The scraper runs on the following url: https://www.etsy.com/de/search?q=bookmarks&ref=pagination&page=. Extract values and save them in varaibles, after the scraper has fully scraped 
 a item creates a dictionary and stores the value under a key. Example below.
 Values in dictionary:
-                                                * "date": str(date.today()),
-                                                * "order": order,
-                                                * "item_id": item_id,
-                                                * "page_num": page_num,
-                                                * "iteration": page,
-                                                * "position_num": position_num,
-                                                * "item_id": item_id,
-                                                * "shop_id": shop_id,
-                                                * "item_link": item_link,
-                                                * "target": target,
-                                                * "title": title,
-                                                * 'img_text':img_text,
-                                                * 'video':video,
-                                                * 'rating':rating,
-                                                * 'shop_reviews':shop_reviews,
-                                                * 'price_from':price_from,
-                                                * 'price':price,
-                                                * 'seller_batch':seller_batch,
-                                                * 'discount':discount,
-                                                * 'free_delivery':free_delivery,
-                                                * 'description': detail_pg_lst[0],
-                                                * 'rating_value': detail_pg_lst[1],
-                                                * 'review_count': detail_pg_lst[2],
-                                                * 'stock': detail_pg_lst[3],
-                                                * 'offer_count': detail_pg_lst[4],
-                                                * 'lowPrice': detail_pg_lst[5],
-                                                * 'highPrice':detail_pg_lst[6],
-                                                * 'date_listed': detail_pg_lst[7],
-                                                * 'price_dpv': detail_pg_lst[8],
-                                                * 'num_img': detail_pg_lst[9],
-                                                * 'add_url':detail_pg_lst[10],
-                                                * 'tags': detail_pg_lst[11],
-                                                * 'num_fav':detail_pg_lst[12]
+
+First Header  | 
+------------- |
+date          |
+order         |
+item_id       |
+page_num      |
+iteration     |
+position_num  |
+item_id       |
+shop_id       |
+item_link     |
+target        |
+title         |
+img_text      |
+video         |
+rating        |
+shop_reviews  |
+price_from    |
+price         |
+seller_batch  |
+discount      |
+free_delivery |
+description   |
+rating_value  |
+review_count  |
+stock         |
+offer_count   |
+lowPrice      |
+highPrice     |
+date_listed   |
+price_dpv     |
+num_img       |
+add_url       |
+tags          |
+num_fav       |
+num_img       |
+add_url       |
+tags          |
+num_fav       |
 
 ### Dependencies
 * BeautifulSoup [documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
